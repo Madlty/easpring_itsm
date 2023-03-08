@@ -1,0 +1,47 @@
+{
+    "name": "vue-manage-system",
+    "version": "4.2.0",
+    "private": true,
+    "scripts": {
+        "dev": "npm run serve",
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "ele-light": "et -c ./src/assets/scss/theme/ele-var-light.scss -o ./src/assets/scss/theme/light",
+        "ele-dark": "et -c ./src/assets/scss/theme/ele-var-dark.scss -o ./src/assets/scss/theme/dark",
+        "ele-et": "npm run ele-light && npm run ele-dark"
+    },
+    "dependencies": {
+        "@volar-plugins/vetur": "latest",
+        "@vue/runtime-dom": "^3.2.47",
+        "axios": "^0.18.0",
+        "babel-polyfill": "^6.26.0",
+        "e-icon-picker": "^1.0.7",
+        "echarts": "^4.6.0",
+        "el-tree-transfer": "^2.2.9",
+        "element-theme": "^2.0.1",
+        "element-ui": "^2.11.0",
+        "file-saver": "^2.0.2",
+        "mavon-editor": "^2.6.17",
+        "sass-loader": "^8.0.2",
+        "svg-sprite-loader": "^4.2.1",
+        "v-charts": "^1.19.0",
+        "v-echarts": "^1.0.2",
+        "vue": "^2.6.10",
+        "vue-cropperjs": "^3.0.0",
+        "vue-i18n": "^8.10.0",
+        "vue-notification": "^1.3.20",
+        "vue-quill-editor": "^3.0.6",
+        "vue-router": "^3.0.3",
+        "vue-schart": "^2.0.0",
+        "vuedraggable": "^2.17.0",
+        "xlsx": "^0.15.6"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.9.0",
+        "@vue/cli-service": "^3.9.0",
+        "element-theme-chalk": "^2.13.2",
+        "mockjs": "^1.1.0",
+        "node-sass": "^4.13.1",
+        "vue-template-compiler": "^2.6.10"
+    }
+}

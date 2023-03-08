@@ -1,0 +1,105 @@
+{
+    "CustToken": "005056BC3A731EDABCB4489E9AAE2C46",
+    "langu": "ZH",
+    "Theme": "DARK",
+    "Filename": "LIUTIANYU",
+    "dcpfm": "X",
+    "loginName": "LIUTIANYU",
+    "nameLast": "刘",
+    "datfm": "4",
+    "menus": [
+        {
+            "menuId": "HOME",
+            "menuName": "首页",
+            "pid": "",
+            "icon": "el-icon-reading",
+            "url": "",
+            "isAct": "X",
+            "level": "001",
+            "childMenu": [
+                {
+                    "menuId": "DASHBOARD",
+                    "menuName": "系统首页",
+                    "pid": "HOME",
+                    "icon": "el-icon-sugar",
+                    "url": "DASHBOARD",
+                    "isAct": "X",
+                    "level": "001"
+                }
+            ]
+        },
+        {
+            "menuId": "SYSTEM",
+            "menuName": "系统管理",
+            "pid": "",
+            "icon": "el-icon-coordinate",
+            "url": "",
+            "isAct": "X",
+            "level": "002",
+            "childMenu": [
+                {
+                    "menuId": "AUTHORIZATION",
+                    "menuName": "权限管理",
+                    "pid": "SYSTEM",
+                    "icon": "el-icon-scissors",
+                    "url": "AUTHORIZATION",
+                    "isAct": "X",
+                    "level": "001"
+                },
+                {
+                    "menuId": "ROLE",
+                    "menuName": "角色管理",
+                    "pid": "SYSTEM",
+                    "icon": "el-icon-user",
+                    "url": "ROLE",
+                    "isAct": "X",
+                    "level": "002"
+                },
+                {
+                    "menuId": "USER",
+                    "menuName": "用户管理",
+                    "pid": "SYSTEM",
+                    "icon": "el-icon-user-solid",
+                    "url": "USER",
+                    "isAct": "X",
+                    "level": "003"
+                },
+                {
+                    "menuId": "MENU",
+                    "menuName": "菜单管理",
+                    "pid": "SYSTEM",
+                    "icon": "el-icon-menu",
+                    "url": "MENU",
+                    "isAct": "X",
+                    "level": "004"
+                }
+            ]
+        },
+        {
+            "menuId": "MDATA",
+            "menuName": "主数据管理",
+            "pid": "",
+            "icon": "fa fa-battery-three-quarters",
+            "url": "",
+            "isAct": "X",
+            "level": "003",
+            "childMenu": [
+                {
+                    "menuId": "MMDATA",
+                    "menuName": "物料主数据",
+                    "pid": "MDATA",
+                    "icon": "fa fa-columns",
+                    "url": "MMDATA",
+                    "isAct": "X",
+                    "level": "001"
+                }
+            ]
+        }
+    ],
+    "nameFirst": "天宇",
+    "msg": "",
+    "timefm": "0",
+    "password": "123",
+    "rc": "0",
+    "token": "-DkEDHA1EoWSNy6s2t-VBg=="
+}

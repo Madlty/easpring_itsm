@@ -1,0 +1,122 @@
+{
+  "createDate": null,
+  "modifyDate": null,
+  "createUser": null,
+  "modifyUser": "lty",
+  "id": 1,
+  "name": "lty",
+  "loginName": "liutianyu",
+  "status": "1",
+  "pass": "$2a$10$PxYsjUidOvMoV4TtZLJpwuIqC6bBsjMLObUHbh7VVJrGmkmJG8ZIi",
+  "roleId": "0",
+  "menus": [
+    {
+      "childMenu": [
+        {
+          "menuId": "dashboard",
+          "menuName": "系统首页",
+          "pid": "home",
+          "level": "1",
+          "status": "1",
+          "url": "dashboard",
+          "icon": "fa fa-video-camera",
+          "sortNumber": 1
+        }
+      ],
+      "menuId": "home",
+      "menuName": "首页",
+      "pid": null,
+      "level": "1",
+      "status": "1",
+      "url": "",
+      "icon": "fa fa-television",
+      "sortNumber": 4
+    },
+    {
+      "childMenu": [
+        {
+          "menuId": "company",
+          "menuName": "公司管理",
+          "pid": "sys",
+          "level": "2",
+          "status": "1",
+          "url": "company",
+          "icon": "el-icon-s-goods",
+          "sortNumber": 3
+        },
+        {
+          "menuId": "menu",
+          "menuName": "菜单管理",
+          "pid": "sys",
+          "level": "2",
+          "status": "1",
+          "url": "menuManagement",
+          "icon": "fa fa-list-ul",
+          "sortNumber": 2
+        },
+        {
+          "menuId": "user",
+          "menuName": "用户管理",
+          "pid": "sys",
+          "level": "2",
+          "status": "1",
+          "url": "administrators",
+          "icon": "fa fa-user",
+          "sortNumber": 1
+        }
+      ],
+      "menuId": "sys",
+      "menuName": "系统管理",
+      "pid": null,
+      "level": "1",
+      "status": "1",
+      "url": null,
+      "icon": "el-icon-setting",
+      "sortNumber": 3
+    },
+    {
+      "childMenu": [
+        {
+          "menuId": "ptypeList",
+          "menuName": "图片类型列表",
+          "pid": "ptype",
+          "level": "2",
+          "status": "1",
+          "url": "pictureType",
+          "icon": "fa fa-list-ol",
+          "sortNumber": 1
+        }
+      ],
+      "menuId": "ptype",
+      "menuName": "图片类型管理",
+      "pid": null,
+      "level": "1",
+      "status": "1",
+      "url": null,
+      "icon": "fa fa-photo",
+      "sortNumber": 2
+    },
+    {
+      "childMenu": [
+        {
+          "menuId": "pdataList",
+          "menuName": "图片数据列表",
+          "pid": "pdata",
+          "level": "1",
+          "status": "1",
+          "url": "pictureData",
+          "icon": "fa fa-stack-exchange",
+          "sortNumber": 1
+        }
+      ],
+      "menuId": "pdata",
+      "menuName": "图片数据管理",
+      "pid": null,
+      "level": "1",
+      "status": "1",
+      "url": null,
+      "icon": "fa fa-align-right",
+      "sortNumber": 1
+    }
+  ]
+}
